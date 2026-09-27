@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A professional portfolio website for a web developer.">
+    <title>KLOT Sopheak | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a class="brand" href="#home">KLOT <span>Sopheak</span></a>
+            <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" data-i18n="navHome">Home</a></li>
+                    <li><a href="#about" data-i18n="navAbout">About</a></li>
+                    <li><a href="#services" data-i18n="navServices">Services</a></li>
+                    <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+                    <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
+                    <li><a href="#contact" class="nav-cta" data-i18n="navContact">Let’s Talk</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <button class="lang-button active" data-lang="en">EN</button>
+                <button class="lang-button" data-lang="kh">KH</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero-wrap">
+            <div class="hero-copy">
+                <div class="eyebrow" data-i18n="portfolioBadge">Portfolio 2026</div>
+                <h1 data-i18n="heroTitle">I build digital <span>experiences</span> that move ideas forward.</h1>
+                <p class="hero-subtitle" data-i18n="heroSubtitle">
+                    I’m a multidisciplinary developer turning strategy, design, and code into websites, products, and user journeys that feel fast, polished, and memorable.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#projects" data-i18n="viewWork">View Work</a>
+                    <a class="btn btn-secondary" href="#contact" data-i18n="hireMe">Hire Me</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>5+</strong>
+                        <span data-i18n="yearsExperience">Years Experience</span>
+                    </div>
+                    <div>
+                        <strong>35+</strong>
+                        <span data-i18n="projectsDelivered">Projects Delivered</span>
+                    </div>
+                    <div>
+                        <strong>98%</strong>
+                        <span data-i18n="clientSatisfaction">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="hero-image-panel">
+                <div class="hero-card">
+                    <div class="profile-image"></div>
+                    <div class="badge badge-one">
+                        <span data-i18n="availableWork">Available for work</span>
+                        <strong data-i18n="freelanceProjects">Freelance Projects</strong>
+                    </div>
+                    <div class="badge badge-two">
+                        <span data-i18n="currentFocus">Current Focus</span>
+                        <strong data-i18n="uiSystems">UI Systems</strong>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <div>
+                    <div class="eyebrow" data-i18n="aboutMe">About Me</div>
+                    <h2 data-i18n="aboutTitle">Designing, building, and launching web platforms.</h2>
+                </div>
+                <p data-i18n="aboutText">
+                    I blend strong fundamentals with a detail-driven creative process, helping founders and teams bring clear, responsive, and conversion-focused digital products to market.
+                </p>
+            </div>
+
+            <div class="about-wrap">
+                <div class="about-image"></div>
+                <div class="about-copy">
+                    <h3 data-i18n="aboutSubtitle">Building better online experiences.</h3>
+                    <p data-i18n="aboutText1">
+                        I specialize in high-performance front-end implementations, UX strategy, and clean technical execution. My work connects business goals with thoughtful user needs.
+                    </p>
+                    <p data-i18n="aboutText2">
+                        Whether you need a portfolio, marketing website, or a product interface, I help shape a focused experience that communicates value and encourages action.
+                    </p>
+                    <div class="about-list">
+                        <div class="item">
+                            <strong>01</strong>
+                            <div data-i18n="webDevelopment">Web Development</div>
+                        </div>
+                        <div class="item">
+                            <strong>02</strong>
+                            <div data-i18n="productDesign">Product Design</div>
+                        </div>
+                        <div class="item">
+                            <strong>03</strong>
+                            <div data-i18n="performanceSEO">Performance Optimization</div>
+                        </div>
+                        <div class="item">
+                            <strong>04</strong>
+                            <div data-i18n="responsiveUI">Responsive UI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <div>
+                    <div class="eyebrow" data-i18n="servicesLabel">Services</div>
+                    <h2 data-i18n="servicesTitle">What I can help you create.</h2>
+                </div>
+                <p data-i18n="servicesText">
+                    Every project starts with clear priorities and moves through a refined production workflow.
+                </p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="icon-box">✦</div>
+                    <h3 data-i18n="serviceWebDesign">Web Design</h3>
+                    <p data-i18n="serviceWebDesignText">I craft clear visual systems, landing pages, and interface concepts aligned with your brand and audience.</p>
+                </article>
+                <article class="service-card">
+                    <div class="icon-box">▣</div>
+                    <h3 data-i18n="serviceFrontend">Front-End Development</h3>
+                    <p data-i18n="serviceFrontendText">I turn designs into responsive, accessible, fast-loading experiences using modern front-end practices.</p>
+                </article>
+                <article class="service-card">
+                    <div class="icon-box">🎨</div>
+                    <h3 data-i18n="serviceUX">UX/UI</h3>
+                    <p data-i18n="serviceUXText">I design intuitive user experiences and visually appealing interfaces that meet both user needs and business goals.</p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <div>
+                    <div class="eyebrow" data-i18n="selectedProjects">Selected Projects</div>
+                    <h2 data-i18n="projectsTitle">Recent work and case studies.</h2>
+                </div>
+                <p data-i18n="projectsText">
+                    From brand-first launches to business dashboards, each project is built around clarity and measurable outcomes.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <span class="tag" data-i18n="projectSaasTag">SaaS Platform</span>
+                    <h3 data-i18n="projectAnalyticsTitle">Insight Analytics</h3>
+                    <div class="project-visual"></div>
+                    <p data-i18n="projectAnalyticsText">A dashboard experience for reporting, KPI visibility, and customer usage intelligence.</p>
+                    <a class="read-link" href="#" data-i18n="exploreProject">Explore project →</a>
+                </article>
+
+                <article class="project-card">
+                    <span class="tag" data-i18n="projectEcommerceTag">Ecommerce</span>
+                    <h3 data-i18n="projectStudioTitle">Studio Supply</h3>
+                    <div class="project-visual"></div>
+                    <p data-i18n="projectStudioText">A conversion-focused online store experience with improved catalogue structure and product storytelling.</p>
+                    <a class="read-link" href="#" data-i18n="exploreProject">Explore project →</a>
+                </article>
+
+                <article class="project-card">
+                    <span class="tag" data-i18n="projectAgencyTag">Agency Website</span>
+                    <h3 data-i18n="projectBrightTitle">Bright Labs</h3>
+                    <div class="project-visual"></div>
+                    <p data-i18n="projectBrightText">A modern web presence for a creative consulting company with service-led content strategy.</p>
+                    <a class="read-link" href="#" data-i18n="exploreProject">Explore project →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-title">
+                <div>
+                    <div class="eyebrow" data-i18n="experienceLabel">Experience</div>
+                    <h2 data-i18n="experienceTitle">From strategy to launch.</h2>
+                </div>
+                <p data-i18n="experienceText">
+                    My process keeps design, implementation, and measurement connected so decisions are grounded in outcomes.
+                </p>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <span>2023 - Present</span>
+                    <h3 data-i18n="experienceRole1">Independent Front-End Developer</h3>
+                    <p data-i18n="experienceText1">Leading website strategy, UI systems, and responsive front-end development for clients across service and e-commerce industries.</p>
+                </article>
+                <article class="timeline-item">
+                    <span>2021 - 2023</span>
+                    <h3 data-i18n="experienceRole2">UI Developer</h3>
+                    <p data-i18n="experienceText2">Built scalable front-end solutions, collaborated with stakeholders, and improved component libraries for growing product teams.</p>
+                </article>
+                <article class="timeline-item">
+                    <span>2019 - 2021</span>
+                    <h3 data-i18n="experienceRole3">Web Designer & Developer</h3>
+                    <p data-i18n="experienceText3">Produced high-quality landing pages, service websites, and marketing assets for startups and local businesses.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container contact-wrapper">
+            <aside class="contact-panel">
+                <div class="eyebrow" data-i18n="letsConnect">Let’s Connect</div>
+                <h2 data-i18n="contactTitle">Have a project in mind?</h2>
+                <p class="hero-subtitle" data-i18n="contactText">
+                    I’d love to hear about what you’re building and what needs to happen next.
+                </p>
+                <div class="contact-list">
+                    <div><span data-i18n="contactEmailLabel">Email</span><strong>sokpheakps112233@gmail.com</strong></div>
+                    <div><span data-i18n="contactLocationLabel">Location</span><strong data-i18n="locationValue">Pursat / Cambodia</strong></div>
+                    <div><span data-i18n="contactAvailabilityLabel">Availability</span><strong data-i18n="availabilityValue">Open for projects</strong></div>
+                </div>
+            </aside>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name" data-i18n="nameLabel">Your Name</label>
+                        <input type="text" id="name" data-i18n-placeholder="namePlaceholder" placeholder="Klot Sopheak">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="emailLabel">Email Address</label>
+                        <input type="email" id="email" data-i18n-placeholder="emailPlaceholder" placeholder="sokpheakps112233@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="messageLabel">Project Details</label>
+                        <textarea id="message" data-i18n-placeholder="messagePlaceholder" placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="button" data-i18n="sendMessage">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <div class="brand">KLOT <span>Sopheak</span></div>
+            <div class="social-links">
+                <a href="#">Dribbble</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+            <div>© 2026 KLOT Sopheak. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
